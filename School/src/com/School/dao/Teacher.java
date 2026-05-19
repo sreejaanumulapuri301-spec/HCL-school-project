@@ -1,10 +1,9 @@
 package com.School.dao;
 
 public class Teacher {
-	public static void main(String[] args) {
-		System.out.println("Teacher class in dao package");
+	public static void addTeacher(String name, String subject) {
+		// Code to add a teacher to the database
+		System.out.println("Teacher " + name + " added with subject " + subject);
 	}
 
 }
-
-
